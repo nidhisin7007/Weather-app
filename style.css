@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background:url(https://png.pngtree.com/thumb_back/fh260/background/20201012/pngtree-white-cloud-on-blue-sky-weather-background-image_410050.jpg);
+    background-size: 100% 100%;
+    height:740px;
+    background-repeat: no-repeat;
+}
+#search-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    height: 30px;
+
+}
+#temp{
+    text-align: center;
+}
+#temp #temp-unit{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+#temp #temp-value{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 2rem;
+    color: #ffffff;
+}
+#climate{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+#location{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+#temp-icon{
+    margin: 1rem;
+    width: 40%;
+    height: auto;
+}
+main{
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #3371db;
+    border-radius: 20px;
+    width: 360px;
+    height: 360px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 20px 10px rgba(112, 102, 102,0.2);
+}
+::placeholder{
+    color:black;
+}
+#search-button{
+    color:#ff6768;
+    text-transform: uppercase;
+    text-decoration:none ;
+    background: red;
+    color:white;
+    border-radius: 5px;
+     margin-left: 5px;
+     padding: 11px;
+     border: 2px solid white;
+     display: inline-block;
+     transition: all 0.4 ease 0s;
+}
+#search-button:hover{
+    color: black;
+    background: white;
+    border-color: #ff6768;
+    transition: all 0.4s ease 0s;
+}
+#search-input{
+ width: 260px;
+ overflow: hidden;
+ font-size: 20px;
+ margin: 8px 0;
+ padding: 8px 0;
+ border-bottom: 3px solid  #ff6768 ;
+ color: black;
+ padding-left: 10px;
+ outline: none;
+ background: none;
+}
+.a{
+    text-align: center;
+    color :rgb(51, 32, 6);
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+input{
+    border: none;
+}
